@@ -192,18 +192,20 @@ h3 {
   display: block;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 30px;
 }
 h2 {
-  font-size: 1.3em;
+  font-size: 26px;
 }
 h3 {
-  font-size: 1.1em;
+  font-size: 21px;
 }
-h4,
+h4 {
+  font-size: 18px;
+}
 h5,
 h6 {
-  font-size: 1em;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
@@ -1109,7 +1111,7 @@ a {
 }
 .article-entry h2 {
   margin-top: 20px;
-  font-weight: 300;
+  font-weight: 700;
   color: #574c4c;
   padding-bottom: 5px;
 }
@@ -1118,7 +1120,7 @@ a {
 .article-entry h5,
 .article-entry h6 {
   margin-top: 20px;
-  font-weight: 300;
+  font-weight: 700;
   color: #574c4c;
   padding-bottom: 5px;
 }
