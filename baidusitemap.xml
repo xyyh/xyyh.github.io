@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://chenyangblog.com/technology/20160524/hexo-build.html</loc>
+    <lastmod>2016-05-26T06:54:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 搭建以及稍加美化和绑定自定义域名</title>
+        <pubTime>2016-05-24T08:49:01.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术之美" url="http://chenyangblog.com/categories/technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
