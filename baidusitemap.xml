@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://chenyangblog.com/technology/20160524/hexo-build.html</loc>
-    <lastmod>2016-05-26T08:28:42.000Z</lastmod>
+    <lastmod>2016-05-29T04:02:37.000Z</lastmod>
     <data>
         <display>
         <title>hexo 搭建以及稍加美化和绑定自定义域名</title>
@@ -19,6 +19,24 @@
            
              
               <breadCrumb title="技术之美" url="http://chenyangblog.com/categories/technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://chenyangblog.com/life/20160523/new-blog.html</loc>
+    <lastmod>2016-05-29T04:01:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>新的博客，新的记录</title>
+        <pubTime>2016-05-23T03:25:18.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="生活杂谈" url="http://chenyangblog.com/categories/life/"/>
           
         </display>
     </data>
