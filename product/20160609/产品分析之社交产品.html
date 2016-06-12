@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>产品分析之社交产品 | xyyh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="看-》想-》写，这是一个重要的过程，以前只看过产品分析，也有想过产品分析，这是第一次写产品分析，分析的内容和方法肯定是有待提高的，希望自己能坚持产品分析并完善吧。最爱社交产品，所以这次拿几个社交产品开始我的第一次产品分析:
+
+微信–熟人社交陌陌–基于LBS的陌生人社交比邻–电话社交探探–有限制的陌生人社交">
+<meta property="og:type" content="article">
+<meta property="og:title" content="产品分析之社交产品">
+<meta property="og:url" content="http://chenyangblog.com/product/20160609/产品分析之社交产品.html">
+<meta property="og:site_name" content="xyyh">
+<meta property="og:description" content="看-》想-》写，这是一个重要的过程，以前只看过产品分析，也有想过产品分析，这是第一次写产品分析，分析的内容和方法肯定是有待提高的，希望自己能坚持产品分析并完善吧。最爱社交产品，所以这次拿几个社交产品开始我的第一次产品分析:
+
+微信–熟人社交陌陌–基于LBS的陌生人社交比邻–电话社交探探–有限制的陌生人社交">
+<meta property="og:image" content="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-0.png">
+<meta property="og:image" content="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-1.png">
+<meta property="og:image" content="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-2.png">
+<meta property="og:updated_time" content="2016-06-12T10:32:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="产品分析之社交产品">
+<meta name="twitter:description" content="看-》想-》写，这是一个重要的过程，以前只看过产品分析，也有想过产品分析，这是第一次写产品分析，分析的内容和方法肯定是有待提高的，希望自己能坚持产品分析并完善吧。最爱社交产品，所以这次拿几个社交产品开始我的第一次产品分析:
+
+微信–熟人社交陌陌–基于LBS的陌生人社交比邻–电话社交探探–有限制的陌生人社交">
+<meta name="twitter:image" content="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-0.png">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/img/xyyh_head.png" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">xyyh</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">follow your heart</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+                        <div class="icon-wrap icon-category hide" data-idx="1">
+							<div class="category"></div>
+						</div>
+						<div class="icon-wrap icon-archive hide" data-idx="2">
+							<div class="archive"></div>
+							<div class="archive2"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="3">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="4">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="5">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>分类</li>
+						<li>归档</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/categories/technology">技术之美</a></li>
+				        
+							<li><a href="/categories/product">产品之道</a></li>
+				        
+							<li><a href="/categories/life">生活杂谈</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/xyyh" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/u/5346438017/home?wvr=5&lf=reg" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/cang-ling-yang-30" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				<section class="switch-part switch-part2">
+					<div class="widget category" id="js-category">
+					    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/product/">产品之道</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/idea/">我的idea</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/technology/">技术之美</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/life/">生活杂谈</a><span class="category-list-count">1</span></li></ul>
+					</div>
+				</section>
+				
+				<section class="switch-part switch-part3">
+					<div class="widget archive" id="js-archive">
+					    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">2016年06月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016年05月</a><span class="archive-list-count">4</span></li></ul>
+					</div>
+				</section>
+                
+                
+				<section class="switch-part switch-part4">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/idea/" style="font-size: 20px;">idea</a> <a href="/tags/产品分析/" style="font-size: 10px;">产品分析</a> <a href="/tags/技术/" style="font-size: 10px;">技术</a> <a href="/tags/社交/" style="font-size: 10px;">社交</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part5">
+					<div id="js-friends" class="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://xybcoder.github.io/">xyb的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.apkfuns.com/">舞影凌风</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part6">
+				
+					<div id="js-aboutme">
+                     
+			          <p>家乡：江西抚州</p>
+			         
+			          <p>学校：华东交通大学</p>
+			         
+			          <p>职业：爱幻想的程序员</p>
+			         
+			          <p>爱好：放空自己，行走各地</p>
+			         
+                    </div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">xyyh</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="/img/xyyh_head.png" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">xyyh</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">follow your heart</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/categories/technology">技术之美</a></li>
+		        
+					<li><a href="/categories/product">产品之道</a></li>
+		        
+					<li><a href="/categories/life">生活杂谈</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/xyyh" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/u/5346438017/home?wvr=5&lf=reg" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/cang-ling-yang-30" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-产品分析之社交产品" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/product/20160609/产品分析之社交产品.html" class="article-date">
+  	<time datetime="2016-06-08T17:50:39.000Z" itemprop="datePublished">2016-06-09</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      产品分析之社交产品
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/产品分析/">产品分析</a></li></ul>
+	</div>
+
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/product/">产品之道</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+            <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#微信"><span class="toc-number">1.</span> <span class="toc-text">微信</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#陌陌"><span class="toc-number">2.</span> <span class="toc-text">陌陌</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#比邻"><span class="toc-number">3.</span> <span class="toc-text">比邻</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#探探"><span class="toc-number">4.</span> <span class="toc-text">探探</span></a></li></ol>
+    <div class="toc-title">隐藏目录</div>
+</div>
+
+<script>
+$("#toc .toc-title").click(function() {
+    var textDire = $("#toc .toc");
+    if(textDire.attr("flag") === "hidden") {
+        textDire.fadeIn().attr("flag", "show");
+        $(this).text("隐藏目录").css({"border-left": "1px solid #ddd", "border-bottom": "1px solid #ddd"});
+    }else {
+        textDire.fadeOut().attr("flag", "hidden")
+        $(this).text("展开目录").css({"border-left": "0", "border-bottom": "0"});
+    }
+});
+
+var tocDom = $("#toc"),
+    tocTop = tocDom.offset().top,
+    sucFixed = false;
+window.addEventListener("scroll", function(){
+    var scrollTop = $(this).scrollTop();
+    if(!sucFixed && scrollTop > tocTop) {
+        tocDom.addClass('toc-fixed');
+        sucFixed = true;
+    }else if(sucFixed && scrollTop <= tocTop) {
+        tocDom.removeClass('toc-fixed');
+        sucFixed = false;
+    }
+});
+</script>
+
+        
+        <p><hr><br>看-》想-》写，这是一个重要的过程，以前只看过产品分析，也有想过产品分析，这是第一次写产品分析，分析的内容和方法肯定是有待提高的，希望自己能坚持产品分析并完善吧。<br>最爱社交产品，所以这次拿几个社交产品开始我的第一次产品分析:</p>
+<blockquote>
+<p>微信–熟人社交<br>陌陌–基于LBS的陌生人社交<br>比邻–电话社交<br>探探–有限制的陌生人社交</p>
+</blockquote>
+<a id="more"></a>
+<h4 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h4><p><hr><br><strong>1.微信的来源</strong></p>
+<blockquote>
+<p>微信是腾讯公司于2011年1月21日推出的一个为智能终端提供即时通讯服务的免费应用程序，微信支持跨通信运营商、跨操作系统平台通过网络快速发送免费（需消耗少量网络流量）语音短信、视频、图片和文字，同时，也可以使用通过共享流媒体内容的资料和基于位置的社交插件“摇一摇”、“漂流瓶”、“朋友圈”、”公众平台“、”语音记事本“等服务插件。</p>
+</blockquote>
+<p><strong>2.微信的定位</strong></p>
+<blockquote>
+<p>微信目前主要用于智能移动平台，定位于通信，熟人社交，目前添加好友的方式有：<br><code>1.通过qq号添加</code><br><code>2.通过手机联系人添加</code><br><code>3.通过雷达添加身边朋友</code><br><code>4.扫一扫二维码添加</code><br><code>5.通过微信号添加</code><br>这几种方式都属于熟人之间的社交，只有认识或者在身边然后通过主动添加的方式才可以成为好友</p>
+<p>后来添加了几种陌生人社交的方式，但是并不允许直接添加为好友，而是需要先打招呼，聊天，然后彼此成为相对的“熟人”并且互相同意之后才可以添加为好友:<br><code>1.摇一摇</code><br><code>2.附近的人</code><br><code>3.漂流瓶</code><br>这几种方式属于陌生人社交，用户并不知道对方是谁</p>
+<p>那么分析这几种添加好友的方式，可以得出一下结论：<br><code>1.微信希望联动手机好友，qq好友，身边的好友，足够满足你添加熟人的方式，希望建立一个熟人社交圈</code><br><code>2.微信给了几个陌生人社交的入口，不拒绝用户进行陌生人社交，但是想彼此成为好友则需要互相认同，成为相对的“熟人”</code></p>
+</blockquote>
+<p><strong>3.微信的用户群体</strong></p>
+<blockquote>
+<p>借用几张网上的微信数据图进行分析:<br><img src="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-0.png" style="width: 49%; float:left;"><br><img src="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-1.png" style="width: 49%; margin-top: -23px; float:right;"><br><img src="http://blog-images01.oss-cn-hangzhou.aliyuncs.com/QQ20160607-2.png" style="width: 49%; margin-top: 17px; margin-left: 30%"><br>从上图数据中分析得出如下结论:<br><code>1.微信的用户群体中性别主要以男生为主，但是女性用户也并不少，男女比例约为1.8 : 1。</code><br><code>2.微信的用户群体非常年轻，近一半用户年龄低于26岁，而有九成的用户年龄低于36岁，所以18-35岁的中青年为微信的主要用户群体，他们的比例高达86.2%。</code><br><code>3.微信的用户群体中企业职员居多，达到四成，而这部分用户的收入相对稳定，消费能力较好，所以微信可以挖掘这部分用户的消费潜力。</code></p>
+</blockquote>
+<p><strong>4.微信的功能</strong></p>
+<blockquote>
+<p>1.可进行语音，文字，表情，图片，视频等聊天消息的发送，满足用户对多种多样消息发送方式的需求。<br>2.可在聊天中发送红包，这是一种新奇的社交方式，将传统红包搬移到互联网中，而且令红包的发送是那么的轻松方便。<br>3.朋友圈，将自己的生活以及自己喜欢的东西分享给朋友们，增加朋友之间的了解和友情。<br>4.摇一摇、查看附近的人、漂流瓶，带给用户的几种新颖又有趣的陌生人社交方式。<br>5.扫一扫，支持普通的二维码/条码扫描，支持封面，街景以及单词翻译的扫描。<br>6.钱包，管理用户的零钱以及涵盖各种生活服务。<br>7.卡券，含有用户的各种优惠券以及会员卡。<br>8.游戏，含有腾讯推荐的游戏。<br>9.表情，可以在这里下载各种有趣好玩的表情。</p>
+</blockquote>
+<p><strong>5.微信的使用场景</strong></p>
+<blockquote>
+<p>1.工作中，微信在工作中使用已经很常见了，特别是一些工作群。<br>2.无聊想聊天的时候，微信是熟人社交，想找朋友聊天的时候微信是一个很好的平台，微信又有摇一摇，附近的人等陌生人社交。<br>3.需要阅读查看时，微信中的订阅号和公众号已经很多，大家都会关注一下自己喜欢的，当有新文章时即可查看。<br>4.支付，微信支付已经很成熟了，不管是发红包还是转账，以及线下支付等都可以用微信支付。<br>5.电商，在微信中开店做生意或者成为微商。</p>
+</blockquote>
+<p><strong>6.微信的体验</strong></p>
+<blockquote>
+<p>1.聊天体验，微信支持语音，视频，文字，表情以及群聊等，聊天方式丰富，聊天界面流畅简洁，表情图丰富有趣还可以添加和收藏，微信将聊天列表放在第一屏，主打聊天，体验很好，消息的收发速度很快。<br>2.交易支付，微信的支付结合了社交，不仅仅有普通的转账交易和线下支付交易，还可以在聊天过程中发送红包，把传统法的红包互联网和娱乐化了，将红包的发放更加简单有趣。<br>3.附近的人，摇一摇，漂流瓶，附近的人基于lbs的社交，即时是陌生人，但也知道就在周围，带给陌生人社交更好的体验和动力，摇一摇通过两个同时摇动手机的人进行匹配，带给用户一种新颖有趣的社交方式，漂流瓶让用户捡别人扔出的瓶子或者自己扔出瓶子进行社交，更加方便的社交方式。<br>4.朋友圈，类似于qq空间，将自己的生活和爱好分享给朋友，但是又不同于qq空间，更加的强调朋友之间的关系和生活分享，朋友圈主推图片式分享，给用户的分享主要入口是需要图片的，而文字的分享则更隐秘些，需要长按，朋友圈更加强调朋友之间的关系，只要互相是朋友时才能看到彼此的评论，而如果互相是朋友也会收到互相评论某某或者点赞某某的消息。</p>
+</blockquote>
+<p><strong>7.微信的商业化</strong></p>
+<blockquote>
+<p>微信的商业化目前来说不是特别的多和明显，主要有以下几种:<br>1.表情商店，通过出售多种多样的表情获取收入。<br>2.转账手续费，用户将微信零钱转账至银行卡时收取的手续费。<br>3.朋友圈，将朋友圈的大流量进行变现，通过大数据对用户进行广告的精准投放从而达到商业化。</p>
+</blockquote>
+<p><strong>8.总结</strong></p>
+<blockquote>
+<p>微信已经渐渐的深入了大家的生活，不仅提供了方便快速的聊天功能，还有线上转账支付以及线下的支付，成为了一个方便大家生活的工具，而微信的数据也表明微信不仅仅是年轻人用，老一辈的也会用，真正降低了沟通的成本，微信的口号是连接一切，非常期待微信做到这一步。</p>
+</blockquote>
+<h4 id="陌陌"><a href="#陌陌" class="headerlink" title="陌陌"></a>陌陌</h4><p><hr><br><strong>1.陌陌的来源</strong></p>
+<blockquote>
+<p>陌陌成立于于2011年3月，是一款基于地理位置的移动社交工具。使用者可以通过陌陌认识附近的人，免费发送文字消息、语音、照片以及精准的地理位置和身边的人更好的交流；可以使用陌陌创建和加入附近的兴趣小组、留言及附近活动和陌陌吧。</p>
+</blockquote>
+<p><strong>2.陌陌的定位</strong></p>
+<blockquote>
+<p>陌陌目前主要用于智能移动平台，定位于陌生人社交，主要添加好友方式有：<br><code>1.可直接添加自己看到的陌生人，比如附近的人</code><br><code>2.通过搜索陌陌号进行添加</code><br><code>3.添加通讯录好友</code><br><code>4.添加qq和微信好友</code><br>以上这几种为陌陌添加好友的方式，其中2，3，4的添加方式属于添加自己的熟人，其中添加qq和微信是通过邀请用户的方式进行添加好友，这几种熟人添加方式并不是陌陌的主要渠道，并且邀请式的添加好友并不及时有效，而陌陌区别于微信的最大之处就是在于陌陌强调陌生人社交，不仅第一界面是附近的陌生人，陌生人动态，陌生群组等，而且附近的陌生人显示的距离精确到米和在线的时间也是实时显示的，用户可直接和陌生人进行聊天，相互关注即可成为好友。</p>
+</blockquote>
+<p><strong>3.陌陌的用户群体</strong></p>
+<blockquote>
+<p>陌陌的用户多以年轻人为主，其中又以白领和学生居多，多数人冲着约炮神器慕名而来，其中男性居多，并且普遍寂寞，对两性交友感兴趣。</p>
+</blockquote>
+<p><strong>4.陌陌的功能</strong></p>
+<blockquote>
+<p>1.查看附近的人，动态，群组，陌陌的主打功能，显示给用户附近的人以及出现的时间，用户可直接进行打招呼聊天，而为了增加陌生人之间的话题，即时是陌生人，也可以互相看到对方的信息，比如有限的动态，签名，个人信息，爱好以及常出没地等，用户也可以直接查看附近的人发送的动态并且直接打招呼聊天，也可以加入附近的群组，和群内成员进行线上聊天和线下活动等。<br>2.筛选附近的人，用户可设置一定的条件，比如性别，活跃时间，年龄，星座等来筛选出现在自己附近的人，从而让用户更方便的寻找到自己想要聊天的陌生人。<br>3.直播，用户可观看正在进行的直播，还能观看自己附近的直播。<br>4.动态，用户可分享自己的动态和观看好友的动态，用户还可观看陌生人的动态。<br>5.圈子，圈子类似社区，聚集有共同特征的人，可进行看帖，发帖和回帖。<br>6.聊天室，以莫一主题建立一个临时群组，可进去聊天和围观别人聊天。<br>7.会员中心，表情商店，用户可购买会员获得更多的体验。</p>
+</blockquote>
+<p><strong>5.陌陌的使用场景</strong></p>
+<blockquote>
+<p>1.作为一款主打陌生人聊天的工具，陌陌可以在你想找人聊天时都可使用。<br>2.陌陌的群组以及群活动也是非常丰富的，在周末无聊的时候可以参加陌陌群组组织的活动。</p>
+</blockquote>
+<p><strong>6.陌陌的体验</strong></p>
+<blockquote>
+<p>1.寻找陌生人体验，陌陌的第一界面就是附近的陌生人，并且可以看到陌生人的头像以及上传的图片，还可以看到用户的动态以及爱好，是否单身，职业和个人信息等众多的信息，对于用户来说是很好的体验，可以快速的找到和陌生人之间的共同话题。<br>2.聊天体验，陌陌生的聊天功能是非常丰富的，支持文字，语音，视频，发送定位，红包，群聊，分享音乐以及阅后即焚等众多的聊天功能，给用户完善的聊天体验，对于陌陌独有的阅后即焚则增加了用户聊天的私密性，另外陌陌的聊天界面还显示用户之间的距离，以及消息是否被送达和阅读，可以实时感觉到对方是否对你有兴趣，是否阅读了你的消息，减少用户等待聊天的时间，减少了陌生人聊天的成本。<br>3.直播体验，用户在陌陌里面选择直播间时不仅可以查看最新的以及通过排行榜进行查看，还可以查看自己的附近的直播，给用户更加真实的感觉，用户在退出直播间之后，直播会以小屏形式显示在用户手机上，用户可以边看直播边进行其他的活动。<br>4.圈子体验，圈子里面可以发帖回帖以及看帖，方便迅速的查看用户感兴趣的东西和发帖寻求自己想要的东西。<br>5.点点体验，点点里面主要是推荐附近的人，用户可选择喜欢还是不喜欢，只有双方互相喜欢之后才可以聊天，减少了用户的被骚扰。</p>
+</blockquote>
+<p><strong>7.陌陌的商业化</strong></p>
+<blockquote>
+<p>1.会员表情增值服务，陌陌有会员服务和表情上店，用户想要获得更好的聊天或者查看用户信息的体验可以通过购买会员和表情。<br>2.游戏联运，陌陌以自己的用户数为基础，和第三方游戏方进行合作获取收益。<br>3.接入第三方api，陌陌通过合作接入第三方api和服务以便商业化。<br>4.广告推广，陌陌接入广告或者商家在附近的人和动态里面进行推广以便商业化。</p>
+</blockquote>
+<p><strong>8.总结</strong></p>
+<blockquote>
+<p>陌陌从上线到上市，发展迅速，作为国内最成功的陌生人社交软件，陌陌以陌生人作为入口和主打功能显然是成功了，但是俗话说成业风云败也风云，陌陌既然在陌生人社交这里成功了，可不能在这里跌倒，而陌陌中现在出现的很多问题就是大多数人以约炮的目的进行社交，带给太多用户骚扰，特别是女性用户，所以陌陌需要做的是如何减少用户的被骚扰以及增强用户的聊天质量，为此陌陌有星级评分，拉名单，以及最新出的点点其实都是减少用户的骚扰，带给用户更好的聊天体验，愿陌陌越来越好。</p>
+</blockquote>
+<h4 id="比邻"><a href="#比邻" class="headerlink" title="比邻"></a>比邻</h4><p><hr><br><strong>1.比邻的来源</strong></p>
+<blockquote>
+<p>比邻于2013年5月上线，主打电话社交，是一个刺激年轻人心跳的社交工具。主要通过即时通话，随时畅聊你感兴趣的话题，并且可以通过精彩的图片和文字分享生活中的美好点滴，也可以欣赏其它用户个性十足的个人资料和生活相册。通过比邻可以以最直接的打电话形式结识来自天涯海角却与你有共同话题的新朋友，还可以免费发送可爱的动态表情短信联络好友，是一款时尚、刺激的社交APP。</p>
+</blockquote>
+<p><strong>2.比邻的定位</strong></p>
+<blockquote>
+<p>比邻定位于陌生人电话社交，可通过比邻号进行好友的查询和添加，也可以通过互相关注而成为好友。</p>
+</blockquote>
+<p><strong>3.比邻的用户群体</strong></p>
+<blockquote>
+<p>比邻的用户群体主要是上班族或者学生，在业余时间的时候进行陌生人聊天。</p>
+</blockquote>
+<p><strong>4.比邻的功能</strong></p>
+<blockquote>
+<p>1.查看同城在线，用户可设置一定的筛选条件进行同城用户筛选。<br>2.随机电话，用户可进入随机电话选择1对1随机单聊或者随机群聊。<br>3.聊天，用户和陌生人可进行文字，图片或者电话聊天。<br>4.直播，可观看直播，直播分为视频直播可语音直播。</p>
+</blockquote>
+<p><strong>5.比邻的使用场景</strong></p>
+<blockquote>
+<p>1.在业余时间下，用户想追求更加刺激的聊天时可使用比邻的电话聊天。<br>2.用户想和同城异性聊天时可使用比邻的同城功能。<br>3.用户想进行午间夜话这种语音聊天或者想看直播时可使用比邻。</p>
+</blockquote>
+<p><strong>6.比邻的体验</strong></p>
+<blockquote>
+<p>1.陌生人打招呼体验，和陌陌相同的是可以和陌生人打招呼，并且主界面显示的就是同城用户，增加了陌生人的真实性和拉近的彼此的距离，同样也可以查看陌生人的个人信息以及动态等，但是不同于陌陌的是打招呼不能过快，快速的打招呼是被禁止的，每次和陌生人打完招呼都需要稍等一会才能和下一个人打招呼，这样其实能更好的减少用户的被骚扰性和降低用户去骚扰别人。<br>2.聊天体验，和陌生人进行聊天时只能文字或者表情图片，不能语音但是可以申请电话聊天，因为比邻主打电话聊天，并且电话聊天更加的刺激和真实，另外如果双方互为陌生人，那么每天的聊天次数是有限制的，这点体验其实很差，比邻在和陌生人聊天次数被限制之前没任何的通知，忽然间就不能回对方信息了，导致双方可能交流的挺愉快的但是突然就没消息了，而且也不能回消息叫对方关注自己，所以这点需要改进。<br>3.随机电话体验，用户可选择进行群聊，进入群聊会有房主，就是话题的发起者，用户可以倾听他人聊天或者自己聊天，既刺激又真实，也可以选择1对1的单聊，体验两人风情，更加刺激的聊天。<br>4.直播体验，直播分为视频直播和语音直播，视频直播其实也是大同小异了，我比较喜欢里面的语音直播，相当于以前的电台之类的，可以听主播聊天以及和主播聊天。</p>
+</blockquote>
+<p><strong>8.总结</strong></p>
+<blockquote>
+<p>微信将短信彻底的变成了验证码，垃圾广告的专属地，而比邻作为电话社交，是否能开辟电话的新的天地呢，比较期待比邻，目前来说比邻的随机电话聊天以及鼓励大家聊天直接使用电话聊天，这些都带给用户一种更加刺激的聊天，希望比邻越来越好。</p>
+</blockquote>
+<h4 id="探探"><a href="#探探" class="headerlink" title="探探"></a>探探</h4><p><hr><br><strong>1.探探的来源</strong></p>
+<blockquote>
+<p>探探是一款基于地理位置的移动社交工具。使用者可以在探探上通过左右滑动认识附近的人，左滑再见，右滑喜欢。探探App交友流程可以简单理解为“彼此喜欢-&gt;享受一刻心动的小惊喜-&gt;开始聊天”模式。探探可以免费发送文字消息、语音、照片，和身边的TA更好的交流。</p>
+</blockquote>
+<p><strong>2.探探的用户群体</strong></p>
+<blockquote>
+<p>专注于80，90后移动社交，主要添加好友方式是相互喜欢，然后匹配成功互为好友。</p>
+</blockquote>
+<p><strong>4.探探的功能</strong></p>
+<blockquote>
+<p>1.查看用户头像图片，探探进入的主界面就是根据定位附近的异性用户并且以大头图片展示。<br>2.查看用户详细信息，点击相应的用户可查看他的信息，标签，兴趣等，还能看到双方的共同点。<br>3.匹配，用户可左滑选择再见，油滑选择喜欢，如果双方互为喜欢则匹配成功。<br>4.聊天，匹配成功的陌生人互为好友，可进行聊天。<br>5.朋友圈，可查看匹配的好友的朋友圈。<br>6.匿名暗恋表白，可选择自己通讯录里的好友进行匿名表白，被表白的用户将会收到一条表白的短信。</p>
+</blockquote>
+<p><strong>5.探探的体验</strong></p>
+<blockquote>
+<p>1.匹配体验，用户不能直接和其他用户聊天，必须先互相喜欢，匹配成功才可以进行聊天，而喜欢的过程只需要右滑即可，体验上很好，滑动特别的流畅，并且每一个用户都显示了大头像，让用户一眼就知道是不是自己喜欢的，减少了用户甄别的成本，同时也减少了用户被骚扰以及去骚扰别人的次数，而进行匹配之后用户如果不喜欢对方也可以解除匹配，则对方不会再出现在自己的好友里，自己也会消失在对方的好友里。<br>2.聊天体验，可进行文字，图片，语音聊天等，聊天界面简洁流畅，特别是发送图片以及查看图片都非常的流畅，而在传统的聊天方式上还加入了真心话聊天，可向对方申请真心话聊天，增加了聊天的趣味性和刺激性，而在用户界面还可以看到对方绑定的微信等社交账号，可以更方便的添加该用户的其他社交账号，更好的把双方联系在一起。<br>3.匿名表白体验，简单方便，只需要选择自己的联系人然后确认即可，表白短信就会被发送出去，不需要用户进行其他的操作。</p>
+</blockquote>
+<p><strong>6.总结</strong></p>
+<blockquote>
+<p>市面上各种各样的社交软件层出不穷，然而陌生人社交的方式却是大同小异，陌生人社交最大的被骚扰问题也是一直存在，而探探改变陌生人社交的方式，从眼缘，看脸开始，只有互相喜欢才可以聊天，减少用户的别骚扰，同时一旦互相匹配成功从一定程度上可认作双方互相喜欢，互相成为好友，可以看到双方的社交账号以及更详细的个人信息和朋友圈动态，给用户更真实更安全的体验，比较喜欢探探的社交方式，愿探探越来越好。</p>
+</blockquote>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/idea/20160606/idea-20160606.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">idea之慢聊</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <!-- <a class="jiathis_button_twitter"></a> -->
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<!-- <a class="jiathis_button_tumblr"></a> -->
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="产品分析之社交产品" data-title="产品分析之社交产品" data-url="http://chenyangblog.com/product/20160609/产品分析之社交产品.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"xyyh2016"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 xyyh
+    	</div>
+        <div class="footer-center">
+            本站有<span id="busuanzi_value_site_uv" class="tongji-num"></span>人访问 | 本页有<span id="busuanzi_value_page_pv" class="tongji-num"></span>次访问
+        </div>
+      	<div class="footer-right">
+      		Powered by <a href="http://hexo.io/" target="_blank" style="color:rgba(0,0,0,0.6)">Hexo</a>  & <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" style="color:rgba(0,0,0,0.6)">Yilia</a>
+      	</div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="/js/main.js"></script>
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+  </div>
+</body>
+</html>
