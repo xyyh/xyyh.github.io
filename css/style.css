@@ -299,6 +299,9 @@ a {
   text-align: center;
   margin: 112px auto 0;
 }
+#container .left-col .js-aboutme {
+  text-align: center;
+}
 #container .mid-col {
   position: absolute;
   right: 0;
